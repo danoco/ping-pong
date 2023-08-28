@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+#score-container {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: antiquewhite;
+  z-index: 99999999;
+}
